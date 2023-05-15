@@ -1,0 +1,89 @@
+    /* پروژه */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/imge/modern-luxury-domestic-room-comfortable-relaxation-generative-ai_188544-12679.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: "";
+    height: 3px;
+    width: 0;
+    background-color: #008698;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    transform: translate(5%);
+    text-align: center;
+    color: #fff;
+}
+
+.cantent h1{
+    font-size: 300px;
+    margin-top: 80px;
+}
+.content{
+    margin: 20px auto;
+    font-weight: 90;
+    line-height: 70px;
+}
+
+button{
+    width: 200px;
+    padding: 10px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #008698;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: aquamarine;
+}
+
+
