@@ -60,7 +60,7 @@ tr:nth-child(even){
 
 /* مینی پروژه */
 
-* {
+/* * {
     margin: 0;
     padding: 0;
 }
@@ -196,4 +196,4 @@ p {
 .lorem {
     color: darkslategray;
     text-align: end;
-}
+} */
